@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+section h1 {
+  color: red;
+  font-size: 70px;
+}
 .card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -217,9 +221,9 @@ h1 {
   margin-left: 4%;
 }
 #idk {
-  margin-left: 93%;
+  margin-left: 5%;
   position: relative;
-  top: -100px;
+  top: -90px;
   color: red;
   font-size: 3rem;
 }
@@ -236,8 +240,9 @@ h1 {
 }
 .addCard .last {
   margin-left: 90%;
-  margin-top: 16px;
+  margin-top: -22px;
 }
+
 .addCard p:nth-child(2) {
   width: 200%;
 }
@@ -258,7 +263,7 @@ h1 {
 }
 .addCard2 .last {
   margin-left: 90%;
-  margin-top: 16px;
+  margin-top: -22px;
 }
 .addCard2 p:nth-child(2) {
   width: 200%;
@@ -268,4 +273,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+.place {
+  margin-top: -5%;
+  margin-left: 5.5%;
 }

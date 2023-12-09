@@ -1,16 +1,13 @@
-const card = document.querySelector(".card-1");
-const fa = document.getElementById("fa");
-const idk = document.getElementById("idk");
-let totalItems = 0;
-function updateTotalItems() {
-  totalItems++;
-  idk.textContent = totalItems;
+function Click() {
+  let main = document.querySelector(".place");
+  let card = document.querySelector(".addCard").cloneNode(true);
+  main.appendChild(card);
+  card.style.display = "block";
 }
-fa.addEventListener("click", function () {
-  updateTotalItems();
-  alert("Item added to the cart!");
-});
 
-card.addEventListener("click", function () {
-  fa.click();
-});
+function SeparateClick() {
+  let main = document.querySelector(".place");
+  let card = document.querySelector(".addCard2").cloneNode(true);
+  main.appendChild(card);
+  card.style.display = "block";
+}
