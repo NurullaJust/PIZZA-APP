@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 200px;
+  gap: 40px 40px;
+}
+.card-1 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-2 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-3 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-4 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+
+.card-5 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-6 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-7 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.card-8 {
+  background-color: white;
+  width: 260px;
+  height: 415px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+  padding: 36px 15px 30px 25px;
+}
+.heading {
+  display: flex;
+  margin-bottom: 10px;
+}
+.heading p {
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.card-1 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-1 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-1 h3 {
+  font-size: 20px;
+}
+.card-2 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-2 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-2 h3 {
+  font-size: 20px;
+}
+.card-3 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-3 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-3 h3 {
+  font-size: 20px;
+}
+.card-4 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-4 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-4 h3 {
+  font-size: 20px;
+}
+.card-5 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-5 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-5 h3 {
+  font-size: 20px;
+}
+.card-6 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-6 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-6 h3 {
+  font-size: 20px;
+}
+.card-7 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-7 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-7 h3 {
+  font-size: 20px;
+}
+.card-8 img {
+  width: 90%;
+  margin-left: 28px;
+}
+.card-8 p:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #121146;
+  font-size: 30px;
+}
+
+.card-8 h3 {
+  font-size: 20px;
+}
+
+#fa {
+  margin-left: 40%;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgb(164, 164, 164);
+  width: 40px;
+  border-radius: 50%;
+  height: 30px;
+  color: red;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  text-transform: capitalize;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: 4%;
+}
+#idk {
+  margin-left: 93%;
+  position: relative;
+  top: -100px;
+  color: red;
+  font-size: 3rem;
+}
+.addCard {
+  background-color: rgb(1, 54, 36);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 440px;
+  height: 100px;
+  padding: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.addCard .last {
+  margin-left: 90%;
+  margin-top: 16px;
+}
+.addCard p:nth-child(2) {
+  width: 200%;
+}
+
+.addCard2 {
+  background-color: rgb(1, 54, 36);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 440px;
+  height: 100px;
+  padding: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.addCard2 .separate h3 {
+  width: 120%;
+}
+.addCard2 .last {
+  margin-left: 90%;
+  margin-top: 16px;
+}
+.addCard2 p:nth-child(2) {
+  width: 200%;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
